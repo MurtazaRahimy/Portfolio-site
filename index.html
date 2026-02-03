@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Murtaza Rahimy | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Kelley - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-  <h1>Murtaza Rahimy</h1>
-  <p>Portfolio & Work</p>
-  <p>Testing</p>
-
-</header>
-
-<section class="gallery">
-  <img src="https://via.placeholder.com/600x400" alt="Work 1">
-  <img src="https://via.placeholder.com/600x400" alt="Work 2">
-  <img src="https://via.placeholder.com/600x400" alt="Work 3">
-</section>
-
-<section class="Testing">
-  <img src="https://via.placeholder.com/600x400" alt="Test 1">
-  <img src="https://via.placeholder.com/600x400" alt="Test 2">
-  <img src="https://via.placeholder.com/600x400" alt="Test 3">
-</section>
-
-<footer>
-  <p>© 2026 Murtaza Rahimy</p>
-  <p>© 2026 Zal7</p>
-</footer>
-
+    <nav class="sidebar">
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 3L12 21L21 3H3Z" fill="currentColor"/>
+            </svg>
+            <span>MIKE KELLEY</span>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#art" class="indent">Art</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#print-shop" class="indent">Print Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="social">
+            <a href="#" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                </svg>
+            </a>
+        </div>
+        
+        <div class="nav-controls">
+            <button class="nav-btn" id="prevBtn">PREV</button>
+            <span class="separator">/</span>
+            <button class="nav-btn" id="nextBtn">NEXT</button>
+        </div>
+        
+        <button class="thumbnail-toggle" id="thumbnailBtn">SHOW THUMBNAILS</button>
+    </nav>
+    
+    <main class="main-content">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600" alt="Modern architecture with pool" class="portfolio-image active">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600" alt="Contemporary home" class="portfolio-image">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600" alt="Luxury residence" class="portfolio-image">
+        </div>
+        
+        <div class="thumbnail-strip" id="thumbnailStrip">
+            <div class="thumbnail active" data-index="0">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=300" alt="Thumbnail 1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=300" alt="Thumbnail 2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300" alt="Thumbnail 3">
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
 </body>
 </html>
-

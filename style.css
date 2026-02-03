@@ -54,6 +54,18 @@ header {
   border-radius: 6px;
 }
 
+.Testing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.Testing img {
+  width: 100%;
+  border-radius: 6px;
+}
+
 footer {
   text-align: center;
   padding: 30px;

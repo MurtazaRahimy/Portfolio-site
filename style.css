@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fafafa;
-  color: #111;
-}
-
-header {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 40px;
-}
-
-.gallery img {
-  width: 100%;
-  border-radius: 6px;
-}
-
-footer {
-  text-align: center;
-  padding: 30px;
-  font-size: 14px;
-  color: #666;
-}
-=======
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -62,7 +30,7 @@ header {
 }
 
 .Testing img {
-  width: 100%;
+  width: 70%;
   border-radius: 6px;
 }
 
@@ -72,4 +40,3 @@ footer {
   font-size: 14px;
   color: #666;
 }
->>>>>>> d9fec2d (initial Commit)

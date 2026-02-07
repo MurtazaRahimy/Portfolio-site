@@ -283,4 +283,9 @@ img {
         width: 150px;
         height: 90px;
     }
+
+    .nav-links a.active {
+        color: #000;
+        font-weight: 500;
+    }
 }
